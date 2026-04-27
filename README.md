@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🧠 SequenceLab AI
+<img src="https://raw.githubusercontent.com/kumarwaibhav/sequence-lab-ai-rnn-lstm-gru-visualization/main/public/logo.svg" alt="SequenceLab AI Logo" width="220"/>
+
+# SequenceLab AI
 
 ### _RNN · LSTM · GRU — Live Memory Visualization_
 
@@ -10,11 +12,11 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 [![Security Hardened](https://img.shields.io/badge/Security-Hardened-green?style=flat-square&logo=shield)](SECURITY.md)
-[![Deploy: Cloudflare Pages](https://img.shields.io/badge/Deploy-Cloudflare_Pages-F38020?style=flat-square&logo=cloudflare)](https://pages.cloudflare.com/)
+[![Deploy: Cloudflare Pages](https://img.shields.io/badge/Deploy-Cloudflare_Pages-F38020?style=flat-square&logo=cloudflare)](https://sequence-lab-ai-rnn-lstm-gru-visualization.pages.dev/)
 
 **A futuristic, interactive educational lab for understanding and comparing Recurrent Neural Networks through the lens of email autocomplete — step by step, gate by gate, token by token.**
 
-[🚀 Live Demo](#) · [📖 Documentation](#table-of-contents) · [🔒 Security Policy](SECURITY.md) · [🐛 Report a Bug](https://github.com/kumarwaibhav/sequence-lab-ai-rnn-lstm-gru-visualization/issues)
+[🚀 Live Demo](https://sequence-lab-ai-rnn-lstm-gru-visualization.pages.dev/) · [📖 Documentation](#table-of-contents) · [🔒 Security Policy](SECURITY.md) · [🐛 Report a Bug](https://github.com/kumarwaibhav/sequence-lab-ai-rnn-lstm-gru-visualization/issues)
 
 ---
 
@@ -420,7 +422,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <div align="center">
 
-Built with precision by **Waibhav Kumar** · [GitHub](https://github.com/kumarwaibhav) · [Email](mailto:kwa.isro@gmail.com)
+Built with precision by **Waibhav Kumar** · [GitHub](https://github.com/kumarwaibhav) · [Email](mailto:kwa.waibhav@gmail.com)
 
 _SequenceLab AI — because understanding sequence models should feel like a lab, not a lecture._
 
