@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 42 38% 96%;
+  --foreground: 210 28% 12%;
+  --card: 42 45% 98%;
+  --card-foreground: 210 28% 12%;
+  --primary: 182 74% 32%;
+  --primary-foreground: 180 80% 98%;
+  --secondary: 28 82% 59%;
+  --secondary-foreground: 24 35% 10%;
+  --muted: 38 25% 89%;
+  --muted-foreground: 214 12% 39%;
+  --accent: 264 58% 56%;
+  --accent-foreground: 260 90% 98%;
+  --border: 210 18% 78%;
+  --input: 210 18% 84%;
+  --ring: 182 74% 32%;
+}
+
+.dark {
+  --background: 215 34% 7%;
+  --foreground: 38 34% 94%;
+  --card: 216 32% 10%;
+  --card-foreground: 38 34% 94%;
+  --primary: 177 76% 47%;
+  --primary-foreground: 210 36% 8%;
+  --secondary: 31 92% 58%;
+  --secondary-foreground: 24 35% 8%;
+  --muted: 215 25% 17%;
+  --muted-foreground: 213 16% 70%;
+  --accent: 263 80% 68%;
+  --accent-foreground: 260 95% 98%;
+  --border: 213 22% 23%;
+  --input: 213 22% 18%;
+  --ring: 177 76% 47%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.lab-grid {
+  background-image:
+    linear-gradient(hsl(var(--border) / 0.28) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--border) / 0.28) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.glass-panel {
+  background:
+    linear-gradient(135deg, hsl(var(--card) / 0.88), hsl(var(--card) / 0.64)),
+    radial-gradient(circle at top left, hsl(var(--primary) / 0.16), transparent 32%);
+  backdrop-filter: blur(18px);
+}
